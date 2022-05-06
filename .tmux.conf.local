@@ -391,7 +391,7 @@ tmux_conf_uninstall_plugins_on_reload=true
 
 set -g default-terminal "screen-256color"
 set -g @plugin 'ofirgall/tmux-window-name'
-bind -n C-S-l clear-history
+
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the
