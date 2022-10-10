@@ -43,6 +43,8 @@ tmux_conf_new_session_prompt=false
 
 
 # -- display -------------------------------------------------------------------
+set -g default-terminal "xterm-256color"
+set -ag terminal-overrides ",xterm-256color:RGB"
 
 # RGB 24-bit colour support (tmux >= 2.2), possible values are:
 #  - true
@@ -402,7 +404,6 @@ tmux_conf_uninstall_plugins_on_reload=true
 #set -g @plugin 'tmux-plugins/tmux-continuum'
 #set -g @continuum-restore 'on'
 
-set -g default-terminal "screen-256color"
 set -g @plugin 'ofirgall/tmux-window-name'
 
 # -- custom variables ----------------------------------------------------------
