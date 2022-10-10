@@ -44,7 +44,6 @@ tmux_conf_new_session_prompt=false
 
 # -- display -------------------------------------------------------------------
 set -g default-terminal "xterm-256color"
-set -ag terminal-overrides ",xterm-256color:RGB"
 
 # RGB 24-bit colour support (tmux >= 2.2), possible values are:
 #  - true
